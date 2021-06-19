@@ -1,0 +1,5 @@
+{
+    "html.format.wrapLineLength": 0,
+    "editor.wordWrapColumn": 250,
+    "dart.lineLength": 160
+}
