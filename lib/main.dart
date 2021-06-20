@@ -15,8 +15,8 @@ class MyApp extends StatelessWidget {
       providers: [ChangeNotifierProvider(create: (_) => SocketService())],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Material App',
-        initialRoute: 'status',
+        title: 'Band names',
+        initialRoute: 'home',
         routes: {
           'home': (_) => HomeScreen(),
           'status': (_) => StatusScreen(),
